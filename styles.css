@@ -1,0 +1,446 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#naveg{
+ font-size: large;
+ 
+}
+
+#img-carrusel{
+ height: 500px;
+ margin-top: 0px;
+ 
+}
+
+#logo{
+height: 80px;
+}
+
+#bus{
+ box-shadow: red;
+ font-size: large;
+}
+
+#img{
+ height: 250px;
+ width: 20%;
+}
+
+#text{
+ color: antiquewhite;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 40px;
+ text-transform: uppercase;
+ font-weight: 600;
+ text-shadow: 2px 2px black;
+}
+ #text2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ }
+
+#cars{
+ height: 200px;
+ width: 100%;
+}
+
+.card-text{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 30px;
+}
+ 
+.col{
+margin-top: 
+height
+
+}
+
+.card{
+margin: 160px;
+height: 400px;
+margin-top: 0%;
+}
+.card2{
+    margin: 160px;
+    height: 10px;
+    margin-top: -100px;
+
+
+ }
+
+
+
+#mari{
+      width: 500px;
+       height: 500px;
+       border-radius: 50%;
+       margin: 30%;
+       border:2px solid #fff;
+       display: block;
+       margin-left: 150%;
+       ;
+}
+
+.pie-de-pagina{
+
+   background-image: url(https://cremolatti.com.ar/web/wp-content/uploads/2019/08/Footer-Back.png);
+   background-position: center bottom;
+   background-size: auto 400px;
+   background-repeat: repeat-x;
+
+   }
+
+.pie-de-pagina .grupo-1{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 50px;
+   padding: 45px 0px;
+}
+.pie-de-pagina .grupo-1 .box figure{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pie-de-pagina .grupo-1 .box figure img{
+   width: 250px;
+}
+.pie-de-pagina .grupo-1 .box h2{
+   color: black;
+   margin-bottom: 25px;
+   font-size: 20px;
+}
+.pie-de-pagina .grupo-1 .box p{
+   color: black;
+   margin-bottom: 10px;
+}
+.pie-de-pagina .grupo-1 .red-social a{
+   display: inline-block;
+   text-decoration: none;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: black;
+   margin-right: 10px;
+   background-color: #909daa;
+   text-align: center;
+   transition: all 300ms ease;
+}
+.pie-de-pagina .grupo-1 .red-social a:hover{
+   color: aqua;
+}
+.pie-de-pagina .grupo-2{
+   background-color: #ccd3da;
+   padding: 7px 3px;
+   text-align: center;
+   color: black;
+}
+.pie-de-pagina .grupo-2 small{
+   font-size: 15px;
+}
+@media screen and (max-width:800px){
+   .pie-de-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+   }
+}
+ .til{
+ font-size: 30px;
+ }
+
+ .til2{
+    width: 1280px;
+   height: auto;
+   margin: 50px auto 0;
+   overflow: hidden;
+ }
+
+
+/* Contactos */
+
+.f {
+   font-family: Arial, Helvetica, sans-serif;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.f {
+   padding: 50px 55px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+   text-align: center;
+   width: 1900px;
+}
+
+.input-group {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+.C {
+   color: #283629;
+   font-size: 35px;
+}
+
+label{
+   color: #283629;
+   font-size: 15px;
+   font-weight: 600;
+   margin-bottom: 15px;
+}
+
+input, textarea{
+   padding: 17px 25px;
+   border-radius: 25px;
+   margin-bottom: 20px;
+   background-color: #edfff0;
+   border: 2px solid #f0faf1;
+   color: #283629;
+   outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+   color: #b5cab6;
+}
+
+.form-txt{
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.form-txt a{
+   color: #76b28e;
+   font-size: 14px;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.btn {
+   font-size: 16px;
+   color: #ffffff;
+   border: 0;
+   border-radius: 25px;
+   background-color: #51d94c;
+   box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+   cursor: pointer;
+}
+
+.btn:hover{
+   background-color: #50e04b;
+}
+
+@media(max-width:991px){
+   body{
+      padding: 30px;
+   }
+
+   .f {
+      padding: 50px 30px;
+      width: 100%;
+   }
+
+   input {
+      padding: 15px;
+   }
+}
+
+/* Pagina Promos */
+
+.top-categories{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   margin-bottom: 3rem;
+}
+
+.container-categories{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 3rem;
+}
+
+.card-category{
+   height: 20rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 2rem;
+   gap: 2rem;
+}
+
+.category-batidos{
+   background-image: linear-gradient(#00000080, #00000080),url("img/batidos.jpg");
+   background-size: cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+.category-tortas{
+   background-image: linear-gradient(#00000080, #00000080),url("img/torta.webp");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.category-postres{
+   background-image: linear-gradient(#00000080, #00000080),url("img/postres.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.card-category p{
+   font-size: 2.5rem;
+   color: #fff;
+   text-transform: capitalize;
+   position: relative;
+}
+
+.card-category p::after{
+   content: "";
+   width: 2.5rem;
+   height: 2px;
+   background-color: #fff;
+   position: absolute;
+   bottom: -1rem;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.card-category span{
+   font-size: 1.6rem;
+   color: #fff;
+   cursor: pointer;
+}
+
+.card-category span:hover{
+   color: peru;
+}
+
+/* Productos */
+
+.top-products{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   margin-bottom: 3rem;
+}
+
+.heading-1{
+   text-align: center;
+   font-weight: 500;
+   font-size: 3rem;
+}
+
+.container-options{
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   margin-bottom: 1rem;
+}
+
+.container-options span{
+   color: #777;
+   background-color: #ffffff;
+   padding: .7rem 3rem;
+   font-size: 1.4rem;
+   text-transform: capitalize;
+   border-radius: 2rem;
+   cursor: pointer;
+}
+
+.container-options span:hover{
+   background-color: peru;
+   color: #ffffff;
+}
+
+.container-options span.active{
+   background-color: peru;
+   color: #ffffff;
+}
+
+.container-products{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   gap: 4rem;
+}
+
+.card-product{
+   background-color: #fff;
+   padding: 2rem 3rem;
+   border-radius: 2rem;
+   cursor: pointer;
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.container-img{
+   position: relative;
+}
+
+.container-img img{
+   width: 100%;
+}
+
+.container-img .discount{
+   position: absolute;
+   left: 0;
+   background-color: peru;
+   color: #fff;
+   padding: 2px 1.2rem;
+   border-radius: 1rem;
+   font-size: 1.2rem;
+}
+
+.card-product:hover .discount{
+   background-color: #000;
+}
+
+.content-card-product{
+   display: grid;
+   justify-items: center;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(6, min-content);
+   row-gap: 1rem;
+}
+
+.content-card-product h3{
+   grid-row: 2/3;
+   grid-column: 1/-1;
+   font-weight: 400;
+   font-size: 1.6rem;
+   margin-bottom: 1rem;
+   cursor: pointer;
+}
+
+.content-card-product h3:hover{
+   color: peru;
+}
+
+.content-card-product .price{
+   justify-self: end;
+   align-self: center;
+   font-size: 1.7rem;
+   font-weight: 600;
+}
+
+.content-card-product .price span{
+   font-size: 1.5rem;
+   font-weight: 400;
+   text-decoration: line-through;
+   color: #777;
+   margin-left: .5rem;
+}
